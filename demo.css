@@ -1,0 +1,38 @@
+.layout{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.layout>div{
+	margin-top: 30px;
+}
+
+.a-container{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	line-height: 1.5;
+	padding: 1px 16px;
+}
+
+.a-container.s1{
+	background: #FFE7E7;
+	border: none;
+	border-radius: 0;
+	border-left: 6px #F44336 solid;
+	border-right: 7px #F44336 solid;
+}
+
+.a-container.s2{
+	border: none;
+	border-top: 6px #FFEB3B solid;
+	border-bottom: 7px #FFEB3B solid;
+	border-radius: 0;
+	background: #FFFFD7;
+}
+
+.a-container.s3{
+	border-color: #4CAF50;
+	border-radius: 0;
+	background: #E7FFE7;
+	border-bottom: 7px #4CAF50 solid;
+}
