@@ -1,0 +1,43 @@
+.layout{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.layout>div{
+	margin-top: 30px;
+}
+
+.a-button{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.a-button:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.steal{
+	background: #009688;
+	color: #ffffff;
+}
+
+.yellow{
+	background: #FFEB3B;
+}
+
+.orange{
+	background: #FF9800;
+}
+
+.red{
+	background: #F44336;
+	color: #ffffff;
+}
+
+.green{
+	color: #ffffff;
+	background: #4CAF50;
+}
