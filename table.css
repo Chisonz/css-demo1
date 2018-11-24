@@ -1,0 +1,46 @@
+body{
+	font-family: arial;
+}
+
+.layout{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.layout table{
+	margin-top: 30px;
+}
+
+.a-table{
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #cccccc;
+}
+
+.a-table tr{
+	border-bottom: 1px solid #dddddd;
+	text-align: left;
+}
+
+.a-table tr:nth-child(even){
+	background: #f1f1f1;
+}
+
+.a-table th{
+	background: #4CAF50;
+	color: #ffffff;
+	padding: 8px;
+}
+
+.a-table td{
+	padding: 8px;
+}
+
+.a-table.v{
+	border: none;
+}
+
+.a-table.v th{
+	color: #000000;
+	background: #ffffff;
+}
